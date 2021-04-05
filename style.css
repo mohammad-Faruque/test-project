@@ -1,0 +1,240 @@
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Work Sans', sans-serif;
+    
+}
+img{
+    max-width: 100%;
+}
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+/*Header Style*/
+.faruk-header span {
+    display: inline-block;
+    background: #6278DF;
+    color: #fff;
+    height: 46px;
+    width: 41px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+    top: -4px;
+}
+.faruk-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*Slider Secton */
+.slider-section{
+    background: url(img/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background:rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    z-index: -1;
+}
+
+.slider-caption h4 {
+    font-size: 31px;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+  .slider-caption h2 {
+    font-size: 54px;
+    margin-bottom: 30px;
+  }
+  .form.control.control-lg {
+    width: 250px;
+    padding: 15px 48px;
+    border-radius: 5px;
+  }
+  .btn.btn-info {
+    padding: 8px 35px;
+    font-size: 28px;
+    margin-left: 30px;
+  }
+  .slider-section .btn:hover{
+      background-color: #5ba533;
+
+  }
+  /*conuter-number*/
+.conuter-number-item .h1 {
+    font-size: 52px;
+  }
+  .conuter-number-item .text-muted {
+    font-size: 20px;
+  }
+  .conuter-number-item.text-center {
+    padding: 40px;
+  }
+  /*About Section*/
+  .About-section{
+      background-color: #f7f9ff;
+      padding: 100px;
+  }
+  .FARUK h1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  .FARUK p {
+    font-size: 20px;
+    line-height: 1.6em;
+    color: #232323;
+  }
+ 
+  .FARUK {
+    margin-top: 150px;
+}
+  /*feature Section css*/
+  .feature-item{
+      height: 300px;
+      box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+  }
+  .left-img-sec{
+      width: 40%;
+      overflow: hidden;
+      border-radius: 5px 000 0 5px;
+
+  }
+  .left-text-sec{
+      width: 60%;
+      padding: 20px;
+  }
+
+.left-img-sec img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -86px;
+}
+
+.feate-section{
+    background-color: #fff;
+    padding: 80px 0;
+
+}
+
+.disply-1 {
+    font-size: 46px;
+  }
+  .lead {
+    font-size: 22px;
+  }
+/*porfoilo hover csss*/
+
+.porfoio-item a{
+    position: relative;
+    display: block;
+}
+.porfoio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223, .6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.porfoio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/*pricing table*/
+.pricing-item{
+    background-color: #fff
+    padding:50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+.pricing-item h1{
+    margin-left: 70px;
+    padding-top: 31px;
+}
+.pricing-item h5 {
+    margin-left: 70px;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 70px;
+    padding-left: 0;
+}
+.pricing-item ul li {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    font-size: 20px;
+    color: #777;
+}
+.pricing-item ul li span {
+    color: #A188DF;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+
+
+.pricing-item-button a {
+    border-color: #657be0;
+    border-width: 2px;
+    padding: 20px 51px;
+    margin-bottom: 58px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+}
+/*tesmonial Section*/
+.author-info img {
+    width: 78px;
+    margin-right: 20px;
+  }
+.author-info {
+    width: 210px;
+    margin: auto;
+
+  }
+.user-details {
+    text-align: center;
+    position: relative;
+    top: 11px;
+}
+.logo{
+ 
+    font-size: 95px;
+    opacity: .2;
+  
+}
+/*About Section*/
+.about-section{
+  background-color: #F7F9FF;
+
+}
+.about-item {
+  margin-top: 63px;
+}
+.about-item .card img {
+  width: 112px;
+  height: auto;
+  margin-top: -49px;
+  margin-left: 16px;
+}
+.content-form-div .card{
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.4);
+  padding: 45px;
+}
+
